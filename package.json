@@ -2,20 +2,37 @@
   "name": "is-port",
   "version": "0.1.1",
   "description": "👓 Check if a number is a valid port respecting the IANA Service Name and Transport Protocol Port Number Registry",
-  "author": {
-    "name": "Jesus Rubio",
-    "url": "http://jesusprubio.name"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jesusprubio/is-port/is-port.git"
-  },
   "keywords": [
     "port",
     "valid",
     "check",
     "IANA"
   ],
+  "bugs": {
+    "url" : "https://github.com/jesusprubio/is-port/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jesus Rubio",
+    "url": "http://jesusprubio.name"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesusprubio/is-port/is-port.git"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json,lint-staged,np,prettier",
+    "audit": "audit-ci --moderate",
+    "pretest": "npm run audit && npm run deps && npm run lint",
+    "test": "nyc ava",
+    "release": "np"
+  },
   "dependencies": {},
   "devDependencies": {
     "audit-ci": "^1.4.1",
@@ -30,17 +47,6 @@
     "nyc": "^13.3.0",
     "prettier": "^1.16.4"
   },
-  "scripts": {
-    "format": "prettier --write '**/*.js'",
-    "lint": "eslint .",
-    "precommit": "lint-staged",
-    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json,lint-staged,np,prettier",
-    "audit": "audit-ci --moderate",
-    "pretest": "npm run audit && npm run deps && npm run lint",
-    "test": "nyc ava",
-    "release": "np"
-  },
-  "license": "MIT",
   "engines": {
     "node": ">=10"
   },
@@ -60,15 +66,15 @@
       ]
     }
   },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
-  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
       "prettier --write",
       "git add"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
