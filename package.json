@@ -35,7 +35,7 @@
     "format": "prettier --write '**/*.js'",
     "lint": "eslint .",
     "precommit": "lint-staged",
-    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json",
+    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json,lint-staged,np,prettier",
     "audit": "audit-ci --moderate",
     "pretest": "npm run audit && npm run deps && npm run lint",
     "test": "nyc ava",
