@@ -17,4 +17,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 [unreleased]: https://github.com/jesusprubio/is-port/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/jesusprubio/is-port/compare/TODO...1.0.0
+[0.1.0]: https://github.com/jesusprubio/is-port/compare/3eeb67bd082b65c44b0c22919a176797a5bc866f...0.1.0
