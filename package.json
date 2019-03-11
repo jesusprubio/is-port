@@ -1,6 +1,6 @@
 {
   "name": "is-port",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "👓 Check if a number is a valid port respecting the IANA Service Name and Transport Protocol Port Number Registry",
   "author": {
     "name": "Jesus Rubio",
