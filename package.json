@@ -25,7 +25,6 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-json": "^1.4.0",
     "lint-staged": "^8.1.5",
     "np": "^4.0.2",
     "nyc": "^13.3.0",
@@ -59,10 +58,7 @@
       "strict": [
         "off"
       ]
-    },
-    "plugins": [
-      "json"
-    ]
+    }
   },
   "prettier": {
     "singleQuote": true,
