@@ -38,7 +38,7 @@ console.log(isPort("a")); // throws exception
 
 ## API
 
-:eyes: Full methods definition.
+:eyes: Full method definition.
 
 ### `version`
 
