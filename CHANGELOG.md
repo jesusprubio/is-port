@@ -16,6 +16,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.2]
+
+### ✏️ Changed
+- Drop not needed stuff from the npm package.
+
 ## [0.1.1]
 
 ### ✏️ Changed
@@ -27,6 +32,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### 🎉 Added
 - Initial features.
 
-[unreleased]: https://github.com/jesusprubio/is-port/compare/0.1.1...HEAD
+[unreleased]: https://github.com/jesusprubio/is-port/compare/0.1.2...HEAD
+[0.1.2]: https://github.com/jesusprubio/is-port/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/jesusprubio/is-port/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/jesusprubio/is-port/compare/3eeb67bd082b65c44b0c22919a176797a5bc866f...0.1.0
