@@ -34,7 +34,7 @@ console.log(isPort("a")); // throws exception
 
 ## Contributing
 
-:sunglasses: If you'd like to help please take a look to [this file](.github/CONTRIBUTING.md).
+:sunglasses: If you wanted to help please take a look to [this file](.github/CONTRIBUTING.md).
 
 ## API
 
