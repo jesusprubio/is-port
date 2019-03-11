@@ -1,0 +1,78 @@
+{
+  "name": "is-port",
+  "version": "0.0.1",
+  "description": "👓 Check if a number is a valid port respecting the IANA Service Name and Transport Protocol Port Number Registry",
+  "author": {
+    "name": "Jesus Rubio",
+    "url": "http://jesusprubio.name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesusprubio/is-port/is-port.git"
+  },
+  "keywords": [
+    "port",
+    "valid",
+    "check",
+    "IANA"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "audit-ci": "^1.4.1",
+    "ava": "^1.3.1",
+    "depcheck": "^0.7.2",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-json": "^1.4.0",
+    "lint-staged": "^8.1.5",
+    "np": "^4.0.2",
+    "nyc": "^13.3.0",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json",
+    "audit": "audit-ci --moderate",
+    "pretest": "npm run audit && npm run deps && npm run lint",
+    "test": "nyc ava",
+    "release": "np"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "strict": [
+        "off"
+      ]
+    },
+    "plugins": [
+      "json"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
