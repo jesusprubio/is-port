@@ -1,4 +1,4 @@
-# is-port
+# isPort
 
 [![Build Status](https://travis-ci.org/jesusprubio/is-port.js.svg?branch=master)](https://travis-ci.org/jesusprubio/is-port)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
