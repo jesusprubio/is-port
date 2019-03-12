@@ -14,9 +14,5 @@ module.exports = port => {
 
   if (typeof port !== 'number') { throw new TypeError('Number expected'); }
 
-  if (port > 0 && port <= 65535) {
-    return true;
-  }
-
-  return false;
+  return port > 0 && port <= 65535;
 };
