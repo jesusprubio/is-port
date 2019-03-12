@@ -16,18 +16,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.1.2]
+## [0.1.2] - 2019-03-11
 
-### ✏️ Changed
-- Drop not needed stuff from the npm package.
+### ❌ Removed
+- Not needed stuff from the npm package.
 
-## [0.1.1]
+## [0.1.1] - 2019-03-11
 
 ### ✏️ Changed
 - Demo picture fixed and other visual improvements in the documentation.
 - CHANGELOG ready.
 
-## [0.1.0]
+## [0.1.0] - 2019-03-11
 
 ### 🎉 Added
 - Initial features.
