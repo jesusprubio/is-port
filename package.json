@@ -31,7 +31,7 @@
     "audit": "audit-ci --moderate",
     "pretest": "npm run audit && npm run deps && npm run lint",
     "test": "tsc && nyc ava",
-    "release": "np"
+    "release": "np --contents dist"
   },
   "dependencies": {},
   "devDependencies": {
