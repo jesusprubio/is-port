@@ -1,6 +1,6 @@
 # isPort
 
-[![Build Status](https://travis-ci.org/jesusprubio/is-port.js.svg?branch=master)](https://travis-ci.org/jesusprubio/is-port)
+[![Build Status](https://travis-ci.org/jesusprubio/is-port.svg?branch=master)](https://travis-ci.org/jesusprubio/is-port)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 [![Downloads](https://img.shields.io/npm/dm/is-port.svg)](https://npmjs.com/is-port)
