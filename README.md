@@ -28,10 +28,6 @@ console.log(isPort(10000000)); // false
 console.log(isPort("a")); // throws exception
 ```
 
-## License
-
-:penguin: This library is released under the [MIT license](LICENSE).
-
 ## Contributing
 
 :sunglasses: If you wanted to help please take a look to [this file](.github/CONTRIBUTING.md).
@@ -39,10 +35,6 @@ console.log(isPort("a")); // throws exception
 ## API
 
 :eyes: Full method definition.
-
-### `version`
-
-Library version.
 
 ### `isPort(port) -> valid`
 
