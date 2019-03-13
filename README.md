@@ -22,7 +22,7 @@
 :pencil: More examples are provided in the [test](test) folder.
 
 ```javascript
-const isPort = require('is-port');
+import { isPort } from "is-port";
 
 console.log(isPort(5)); // true
 console.log(isPort(10000000)); // false
