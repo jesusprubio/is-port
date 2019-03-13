@@ -7,9 +7,9 @@
  * the LICENSE.txt file in the root directory of this source tree.
  */
 
-'use strict';
+"use strict";
 
-const isPort = require('..');
+const isPort = require("..");
 
 /* eslint-disable no-console */
 console.log(isPort(5)); // true
