@@ -27,7 +27,7 @@
     "format": "prettier-tslint fix 'src/**/*.ts'",
     "lint": "tslint -p tsconfig.json",
     "precommit": "lint-staged",
-    "deps": "depcheck --ignores=lint-staged,np,prettier-tslint,typescript,tslint,eslint",
+    "deps": "depcheck --ignores=lint-staged,np,prettier-tslint,typescript,tslint,eslint,is-port",
     "audit": "audit-ci --moderate",
     "pretest": "npm run audit && npm run deps && npm run lint",
     "test": "tsc && nyc ava",
