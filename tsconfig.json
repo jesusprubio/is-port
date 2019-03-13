@@ -4,5 +4,9 @@
     "allowJs": true,
     "target": "es5"
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*"],
+  "paths": {
+    "is-port": "./dist/",
+    "is-port/*": "./dist/*"
+  }
 }
