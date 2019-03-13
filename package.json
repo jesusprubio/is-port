@@ -50,9 +50,9 @@
     "node": ">=10"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write",
+    "*.ts": [
+      "npm run format",
+      "npm run lint",
       "git add"
     ]
   },
