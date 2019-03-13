@@ -9,7 +9,7 @@
     "IANA"
   ],
   "bugs": {
-    "url" : "https://github.com/jesusprubio/is-port/issues"
+    "url": "https://github.com/jesusprubio/is-port/issues"
   },
   "license": "MIT",
   "author": {
@@ -24,13 +24,13 @@
     "url": "https://github.com/jesusprubio/is-port/is-port.git"
   },
   "scripts": {
-    "format": "prettier --write '**/*.js'",
-    "lint": "eslint .",
-    "precommit": "lint-staged",
-    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json,lint-staged,np,prettier",
     "audit": "audit-ci --moderate",
+    "deps": "depcheck --ignores=eslint-config-airbnb-base,eslint-config-prettier,eslint-plugin-import,eslint-plugin-json,lint-staged,np,prettier",
+    "lint": "eslint .",
     "pretest": "npm run audit && npm run deps && npm run lint",
     "test": "nyc ava",
+    "format": "prettier --write '**/*.js'",
+    "precommit": "lint-staged",
     "release": "np"
   },
   "dependencies": {},
