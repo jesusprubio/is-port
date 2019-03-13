@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/jesusprubio/is-port.svg?branch=master)](https://travis-ci.org/jesusprubio/is-port)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Downloads](https://img.shields.io/npm/dm/is-port.svg)](https://npmjs.com/is-port)
-[![Install size](https://packagephobia.now.sh/badge?p=is-port)](https://packagephobia.now.sh/result?p=is-port)
 [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/emersion/stability-badges#stable)
 
 :white_check_mark: Check if a number is a valid port respecting the [IANA Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml). Because I always forget if the last is 65535? 65534? xD.
