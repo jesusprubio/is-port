@@ -16,6 +16,14 @@
 	</p>
 </div>
 
+## Install
+
+:coffee: Install last [Node.js](https://nodejs.org/download) stable version (or LTS) and then:
+
+```sh
+npm i -g is-port
+```
+
 ## Use
 
 :pencil: More examples are provided in the [test](src/test) folder.
