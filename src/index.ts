@@ -7,12 +7,14 @@
  * the LICENSE.txt file in the root directory of this source tree.
  */
 
-'use strict';
+export function isPort(port?: any): boolean {
+  if (!port) {
+    throw new Error('Required: port');
+  }
 
-module.exports = port => {
-  if (!port) { throw new Error('Required: port'); }
-
-  if (typeof port !== 'number') { throw new TypeError('Number expected'); }
+  if (typeof port !== 'number') {
+    throw new TypeError('Number expected');
+  }
 
   return port > 0 && port <= 65535;
-};
+}

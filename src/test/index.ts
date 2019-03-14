@@ -10,7 +10,7 @@
 'use strict';
 
 import test from 'ava';
-import isPort from '..';
+import { isPort } from '../';
 
 test('should throw if no parameter is passed', t => {
   t.throws(() => isPort(), 'Required: port');
