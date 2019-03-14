@@ -12,14 +12,6 @@
 import test from 'ava';
 import { isPort } from '../';
 
-test('should throw if no parameter is passed', t => {
-  t.throws(() => isPort(), 'Required: port');
-});
-
-test('should throw if the parameter is passed', t => {
-  t.throws(() => isPort('a'), 'Number expected');
-});
-
 test('should return true for a valid one', t => {
   t.true(isPort(5));
 });
