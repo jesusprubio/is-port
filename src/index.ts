@@ -7,14 +7,4 @@
  * the LICENSE.txt file in the root directory of this source tree.
  */
 
-export function isPort(port?: any): boolean {
-  if (!port) {
-    throw new Error('Required: port');
-  }
-
-  if (typeof port !== 'number') {
-    throw new TypeError('Number expected');
-  }
-
-  return port > 0 && port <= 65535;
-}
+export const isPort = (port: number): boolean => port > 0 && port <= 65535;

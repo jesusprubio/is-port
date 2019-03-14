@@ -18,14 +18,13 @@
 
 ## Use
 
-:pencil: More examples are provided in the [test](test) folder.
+:pencil: More examples are provided in the [test](src/test) folder.
 
 ```javascript
 import { isPort } from "is-port";
 
 console.log(isPort(5)); // true
 console.log(isPort(10000000)); // false
-console.log(isPort("a")); // throws exception
 ```
 
 ## Contributing
