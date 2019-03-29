@@ -18,7 +18,7 @@
 
 ## Install
 
-:coffee: Install lastest [Node.js](https://nodejs.org/download) stable version (or LTS) and then:
+:coffee: Install latest [Node.js](https://nodejs.org/download) stable version (or LTS) and then:
 
 ```sh
 npm i -g is-port
