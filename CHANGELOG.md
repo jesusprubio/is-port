@@ -16,7 +16,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.1.2] - 2019-03-11
+## [0.1.2] - 2019-03-29
+
+### ✏️ Changed
+- Code changed to TypeScript.
+- Multiple documentation improvements.
 
 ### ❌ Removed
 - Not needed stuff from the npm package.
