@@ -8,7 +8,7 @@
  */
 "use strict";
 
-import { isPort } from "is-port";
+import { isPort } from "../src";
 
 /* eslint-disable no-console */
 console.log(isPort(5)); // true
